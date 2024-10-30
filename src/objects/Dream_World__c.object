@@ -154,10 +154,21 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
-        <fullName>isAvailableForSale__c</fullName>
+        <fullName>Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Area</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Available_for_Sale__c</fullName>
         <defaultValue>false</defaultValue>
         <externalId>false</externalId>
-        <label>isAvailableForSale</label>
+        <label>Is Available for Sale</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
