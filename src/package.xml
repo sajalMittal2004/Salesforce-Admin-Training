@@ -5,10 +5,6 @@
         <name>ApexClass</name>
     </types>
     <types>
-        <members>Dream_World__c.isAvailableForSale__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
         <members>Dream_World__c</members>
         <name>CustomObject</name>
     </types>
