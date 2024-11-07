@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Rating__c</fullName>
+        <description>Rate your training Session experience on the scale of 1 to 5.</description>
+        <externalId>false</externalId>
+        <label>Rating</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Session__c</fullName>
+        <externalId>false</externalId>
+        <label>Session</label>
+        <referenceTo>Training_Session__c</referenceTo>
+        <relationshipLabel>Feedbacks</relationshipLabel>
+        <relationshipName>Feedbacks</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+</CustomObject>
