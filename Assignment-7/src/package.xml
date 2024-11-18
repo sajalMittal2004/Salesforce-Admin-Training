@@ -31,6 +31,14 @@
         <name>EmailTemplate</name>
     </types>
     <types>
+        <members>Opportunity-Opportunity Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
         <members>Account.VR_Validation_of_Phone</members>
         <members>Contact.VR_Validation_of_DOB</members>
         <name>ValidationRule</name>
