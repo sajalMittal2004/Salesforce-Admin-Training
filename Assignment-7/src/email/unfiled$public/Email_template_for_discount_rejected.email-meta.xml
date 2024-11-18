@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template to notify opportunity owner about discount rejected</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email template for discount rejected</name>
+    <style>none</style>
+    <subject>Approval rejected</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

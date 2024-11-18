@@ -1,0 +1,3 @@
+Hey,
+{!Opportunity.OwnerFullName} has requsted to approve {!Opportunity.Name}.
+click here to verify: {!ApprovalRequest.Internal_URL}
