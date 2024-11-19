@@ -3,6 +3,8 @@ public class AccountHandler {
         System.debug('Handling account');
 	}
  
+	public void addContact(Contact con) {
+        System.debug('Adding contact: ' + con.LastName);
 	public void updateAccount(Account acc) {
         System.debug('Updating account: ' + acc.Name);
 	}
