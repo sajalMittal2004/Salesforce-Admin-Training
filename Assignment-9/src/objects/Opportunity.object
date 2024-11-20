@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayouts>
+        <fullName>Compact_Layout_To_Show_Key_Fields</fullName>
+        <fields>Name</fields>
+        <fields>StageName</fields>
+        <fields>Amount</fields>
+        <fields>CloseDate</fields>
+        <label>Compact Layout To Show Key Fields</label>
+    </compactLayouts>
+</CustomObject>

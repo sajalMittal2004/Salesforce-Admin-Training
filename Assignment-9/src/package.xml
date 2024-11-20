@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>AnimationRule</name>
+    </types>
+    <types>
+        <members>Opportunity.Compact_Layout_To_Show_Key_Fields</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>SparkSuccess</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Opportunity_Record_Page</members>
+        <members>SparkSuccess_Home_Page</members>
+        <members>SparkSuccess_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PathAssistant</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>60.0</version>
+</Package>
