@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>Restriction on Training Session to show webinar only record type</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>Restriction to show Webinar</masterLabel>
+    <recordFilter>RecordTypeId=&apos;012WU0000031dLlYAI&apos;</recordFilter>
+    <targetEntity>Training_Session__c</targetEntity>
+    <userCriteria>$User.Department=&apos;Sales&apos;</userCriteria>
+    <version>1</version>
+</RestrictionRule>
