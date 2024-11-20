@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Feedback__c</members>
+        <members>Lead</members>
+        <members>Training_Session__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Training_Session__c.Training_Session_Duplicate_Rule</members>
+        <name>DuplicateRule</name>
+    </types>
+    <types>
+        <members>Training_Session__c.Training_Session_Matching_Rule</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
+        <members>Service_Account</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Sales Manager</members>
+        <members>Sales Rep</members>
+        <members>Service Account Team</members>
+        <members>Technology Team</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Training_Session__c.Webinar</members>
+        <members>Training_Session__c.Workshop</members>
+        <name>RecordType</name>
+    </types>
+    <types>
+        <members>Restriction_on_Training_Session_to_show</members>
+        <members>Restriction_to_show_Feedback_to_owner_only</members>
+        <members>Scoping_Rule_to_View_Leads_of_Industry_EngineeringConsulting</members>
+        <name>RestrictionRule</name>
+    </types>
+    <version>60.0</version>
+</Package>
